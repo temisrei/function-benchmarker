@@ -2,8 +2,10 @@
   "name": "@temisrei/function-benchmarker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.min.js",
   "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rm -rf dist/ && rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
