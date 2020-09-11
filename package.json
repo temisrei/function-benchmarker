@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.26.11",
+    "rollup-plugin-terser": "^7.0.2"
+  }
 }
