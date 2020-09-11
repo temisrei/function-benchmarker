@@ -16,4 +16,4 @@ const benchmarker = (testFun, times = 1000000) => {
   return endTime - startTime;
 };
 
-export default benchmarker;
+module.exports = benchmarker;
