@@ -1,16 +1,37 @@
 {
   "name": "@temisrei/function-benchmarker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple benchmark for testing function performance",
   "main": "dist/index.min.js",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rm -rf dist/ && rollup -c",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/temisrei/function-benchmarker.git"
+  },
+  "homepage": "https://github.com/temisrei/function-benchmarker",
+  "bugs": {
+    "url": "https://github.com/temisrei/function-benchmarker/issues"
+  },
+  "keywords": [
+    "performance",
+    "benchmark",
+    "evaluation",
+    "speed",
+    "timer"
+  ],
+  "author": "Rei Lin <temisrei@gmail.com> (https://temisrei.github.io/)",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^26.4.2",
     "rollup": "^2.26.11",
